@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<onlineShopping> 
+    <cart user="01">
+        <itemName><b>OnePlus Buds Z</b></itemName>  
+        <itemPrice><i>₹3,999</i></itemPrice>
+        <itemID><i>101</i></itemID>
+        <itemQuantity>2</itemQuantity>
+        <itemName><b>Nike Air Max 90</b></itemName>
+        <itemPrice><i>₹10,795</i></itemPrice>
+        <itemID><i>202</i></itemID>
+        <itemQuantity>1</itemQuantity>
+        <itemName><b>Fitbit Sense 2</b></itemName>
+        <itemPrice><i>₹24,999</i></itemPrice>
+        <itemID><i>303</i></itemID>
+        <itemQuantity>1</itemQuantity>
+    </cart>
+
+    <checkout>
+        <shippingInfo>
+            <name>
+                <Fname>Sree Shivesh</Fname>
+                <Lname>K</Lname>
+            </name>
+            <address>
+                <houseNumber>10</houseNumber>
+                <street>Avinashi Road</street>
+                <city>Coimbatore</city>
+                <state>Tamil Nadu</state>
+                <country>India</country>
+                <ZIP>641004</ZIP>
+            </address>
+        </shippingInfo>
+
+        <paymentInfo Method="UPI">
+            <!-- <paymentMethod>Debit/Credit/ATM Card</paymentMethod>
+            <paymentMethod>Net Banking</paymentMethod>
+            <paymentMethod>UPI</paymentMethod>
+            <paymentMethod>Cash On Delivery</paymentMethod> -->
+
+            <id>abc@okBank</id>
+            <verification>Successful</verification>
+        </paymentInfo>
+
+        <OrderSummary billNumber="101">
+            <items>
+                <itemName><b>OnePlus Buds Z</b></itemName>
+                <itemID><i>101</i></itemID>
+                <itemName><b>Nike Air Max 90</b></itemName>
+                <itemID><i>202</i></itemID>
+                <itemName><b>Fitbit Sense 2</b></itemName>
+                <itemID><i>303</i></itemID>
+            </items>
+
+            <delivery>
+                <deliveryCharge>₹40.00</deliveryCharge>
+            </delivery>
+
+            <promotions>
+                <couponCode>XYZQWERTY</couponCode>
+                <discountedAmount>₹5000</discountedAmount>
+            </promotions>
+
+            <orderTotal>₹34,833</orderTotal>
+
+            <expectedDelivery>29 February</expectedDelivery>
+        </OrderSummary>
+    </checkout>
+
+    <trackOrder orderID="101">
+        <previousLocation>Mumbai</previousLocation>
+        <currentLocation>Chennai</currentLocation>
+        <expectedDelivery>1 day &amp; 4 hrs</expectedDelivery>
+    </trackOrder>
+
+</onlineShopping>
